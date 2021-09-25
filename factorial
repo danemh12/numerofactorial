@@ -5,7 +5,7 @@ int main(void){
 	int i, A;
 	int fac=1;
 	int num;
-	while (A=1){
+	while (A<=1){
 fac=1;
 	printf("Dame un numero \n");
 	scanf("%d",&num);

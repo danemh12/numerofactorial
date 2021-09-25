@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<math.h>
+
+int main(void){
+	int i, A;
+	int fac=1;
+	int num;
+	while (A=1){
+fac=1;
+	printf("Dame un numero \n");
+	scanf("%d",&num);
+	
+	
+	for (i = 1; i <= num; i++){
+         fac=fac*i;
+	
+	
+	printf("el factorial de %d es %d \n", num, fac);
+	
+	}
+	printf("¿desea hacer el calculo de nuevo? de 1 si es asi o 2 si no es asi");
+	scanf("%d",&A);	 
+	
+	
+	}
+
+
+return 0;
+}
